@@ -20,6 +20,4 @@ const firstNonRepeatedChar = findFirstNonRepeatedChar(inputString);
 
 if (firstNonRepeatedChar !== null) {
   alert(firstNonRepeatedChar);
-} else {
-  alert("No non-repeated character found in the string.");
-}
+} 
