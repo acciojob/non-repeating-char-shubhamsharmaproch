@@ -19,7 +19,7 @@ const inputString = prompt("Enter a string:");
 const firstNonRepeatedChar = findFirstNonRepeatedChar(inputString);
 
 if (firstNonRepeatedChar !== null) {
-  alert("The first non-repeated character is: " + firstNonRepeatedChar);
+  alert(firstNonRepeatedChar);
 } else {
   alert("No non-repeated character found in the string.");
 }
